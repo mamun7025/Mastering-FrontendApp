@@ -15,175 +15,147 @@
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap">
     <link rel="stylesheet" type="text/css"
           href="rs/p/mdb.min.css">
-<!--     <link rel="stylesheet" type="text/css"
-          href="rc/MDB5-Pro-Advanced_6.4.2_plugins_css_all.min.css"> -->
-    <style>body {
+
+    <style>
+    body {
         background-color: #fbfbfb;
-    }</style>
+        background-color: #eee;
+    }
+    .sidenav-link i {
+        color: #9fa6b2;
+        color: unset;
+    }
+    .sidenav-link.active {
+        color: #1266f1 !important;
+    }
+</style>
 </head>
 <body>
 
 
 <!--Main Navigation-->
 <header>
+
     <!-- Sidenav -->
-    <div id="sidenav-1" class="sidenav" data-mdb-color="dark" role="navigation" data-mdb-hiddenx="false"
-         data-mdb-accordionx="true">
-        <a class="ripple d-flex justify-content-center py-3" href="#!" data-mdb-ripple-color="primary">
-            <img id="MDB-logo" src="https://mdbootstrap.com/wp-content/uploads/2018/06/logo-mdb-jquery-small.png"
-                 alt="MDB Logo" draggable="false" height="25">
-        </a>
-        <ul class="sidenav-menu">
-            <li class="sidenav-item">
-                <a class="sidenav-link active">
-                    <i class="fas fa-home fa-fw me-3"></i><span>Home</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-fire fa-fw me-3"></i><span>Trending</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fab fa-youtube-square fa-fw me-3"></i><span>Subscriptions</span>
-                </a>
-            </li>
-        </ul>
-        <hr>
-        <ul class="sidenav-menu">
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-caret-square-right fa-fw me-3"></i><span>Library</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-history fa-fw me-3"></i><span>History</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="far fa-caret-square-right fa-fw me-3"></i><span>Your videos</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-clock fa-fw me-3"></i><span>Watch later</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-thumbs-up fa-fw me-3"></i><span>Liked videos</span>
-                </a>
-            </li>
-        </ul>
-        <hr>
-        <ul class="sidenav-menu">
-            <h6 class="text-muted text-uppercase ps-4">Subscriptions</h6>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg" class="rounded-circle me-3"
-                         height="25" alt="" loading="lazy"><span>The Jazz Hop Cafe</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img (32).jpg" class="rounded-circle me-3"
-                         height="25" alt="" loading="lazy"><span>MDB Youth</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img (33).jpg" class="rounded-circle me-3"
-                         height="25" alt="" loading="lazy"><span>Travels by Bus Around the World</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img (30).jpg" class="rounded-circle me-3"
-                         height="25" alt="" loading="lazy"><span>The Awesome</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img (28).jpg" class="rounded-circle me-3"
-                         height="25" alt="" loading="lazy"><span>SheriffUSA</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link" data-mdb-toggle="collapse" role="button" aria-expanded="false"
-                   aria-controls="collapseExample">
-                    <i class="fas fa-chevron-down fa-fw me-3"></i><span>Show 2 more</span>
-                </a>
-            </li>
-        </ul>
-        <hr>
-        <ul class="sidenav-menu">
-            <h6 class="text-muted text-uppercase ps-4">More from youtube</h6>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fab fa-youtube fa-fw me-3"></i><span>YouTube Premium</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-film fa-fw me-3"></i><span>Movies</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-gamepad fa-fw me-3"></i><span>Gaming</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-broadcast-tower fa-fw me-3"></i><span>Live</span>
-                </a>
-            </li>
-        </ul>
-        <hr>
-        <ul class="sidenav-menu">
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-cog fa-fw me-3"></i><span>Settings</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-flag fa-fw me-3"></i><span>Report history</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-question-circle fa-fw me-3"></i><span>Help</span>
-                </a>
-            </li>
-            <li class="sidenav-item">
-                <a class="sidenav-link">
-                    <i class="fas fa-comment-alt fa-fw me-3"></i><span>Send feedback</span>
-                </a>
-            </li>
-        </ul>
-        <hr>
-        <div class="ps-4 mb-3">
-            <a href="" class="text-body small me-3">About</a>
-            <a href="" class="text-body small me-3">Press</a>
-            <a href="" class="text-body small me-3">Copyright</a>
-            <a href="" class="text-body small me-3">Contact us</a>
-            <a href="" class="text-body small me-3">Creators</a>
-            <a href="" class="text-body small me-3">Advertise</a>
-            <a href="" class="text-body small me-3">Developers</a>
+    <div
+      id="full-screen-example"
+      class="sidenav"
+      data-mdb-color-xxx="dark"
+      role="navigation"
+      data-mdb-mode="side"
+      data-mdb-hiddenx="false"
+      data-mdb-scroll-container="#scrollContainer"
+    >
+      <div class="mt-4">
+        <div id="header-content" class="ps-3">
+          <img
+            src="https://mdbootstrap.com/img/Photos/Avatars/img%20(26).jpg"
+            alt="avatar"
+            class="rounded-circle img-fluid mb-3"
+            style="max-width: 50px;"
+          />
+
+          <h4>
+            Ann Smith
+          </h4>
+          <p>ann_s@mdbootstrap.com</p>
         </div>
-        <div class="ps-4 mb-4 pb-2">
-            <a href="" class="text-body small me-3">Terms</a>
-            <a href="" class="text-body small me-3">Privacy</a>
-            <a href="" class="text-body small me-3">Policy &amp; Safety</a>
-            <a href="" class="text-body small me-3">How YouTube works</a>
-            <a href="" class="text-body small me-3">Test new features</a>
-        </div>
-        <p class="small text-muted ps-4">© 2020 MDBootstrap</p>
+        <hr class="mb-0" />
+      </div>
+      <div id="scrollContainer">
+        <ul class="sidenav-menu">
+          <li class="sidenav-item">
+            <a class="sidenav-link" href="#"> <i class="fas fa-envelope pe-3"></i>Inbox</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link" href="#test-link">
+              <i class="fas fa-paper-plane pe-3"></i>Outbox</a
+            >
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-address-book pe-3"></i>Contacts</a>
+            <ul class="sidenav-collapse">
+              <li class="sidenav-item">
+                <a class="sidenav-link">Family</a>
+              </li>
+              <li class="sidenav-item">
+                <a class="sidenav-link" href="/previews/mdb-ui-kit/sidenav/1.html">Friends</a>
+              </li>
+              <li class="sidenav-item">
+                <a class="sidenav-link">Work</a>
+              </li>
+            </ul>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-file pe-3"></i>Drafts</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-heart pe-3"></i>Favourites</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-star pe-3"></i>Starred</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-trash pe-3"></i>Trash</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-ban pe-3"></i>Spam</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"><i class="fas fa-tag pe-3"></i>Categories</a>
+            <ul class="sidenav-collapse">
+              <li class="sidenav-item">
+                <a class="sidenav-link">Social</a>
+              </li>
+              <li class="sidenav-item">
+                <a class="sidenav-link">Notifications</a>
+              </li>
+              <li class="sidenav-item">
+                <a class="sidenav-link">Recent</a>
+              </li>
+              <li class="sidenav-item">
+                <a class="sidenav-link">Uploads</a>
+              </li>
+              <li class="sidenav-item">
+                <a class="sidenav-link">Backups</a>
+              </li>
+              <li class="sidenav-item">
+                <a class="sidenav-link">Offers</a>
+              </li>
+            </ul>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-sticky-note pe-3"></i>Notes</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-user-circle pe-3"></i>Personal</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-ellipsis-h pe-3"></i>More</a>
+          </li>
+        </ul>
+        <hr class="m-0" />
+        <ul class="sidenav-menu">
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-cogs pe-3"></i>Settings</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-user pe-3"></i>Profile</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-shield-alt pe-3"></i>Privacy</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link"> <i class="fas fa-user-astronaut pe-3"></i>Log out</a>
+          </li>
+        </ul>
+      </div>
+      <div class="text-center" style="height: 100px;">
+        <hr class="mb-4 mt-0" />
+        <p>MDBootstrap.com</p>
+      </div>
     </div>
+
     <!-- Sidenav -->
 
     <!-- Navbar -->
@@ -290,176 +262,170 @@
 
 
 
-    <!--Main layout-->
-    <main style="margin-top: 58px">
-      <div class="container">
+<!--Main layout-->
+<main style="margin-top: 85px; padding-left: 248px;">
+<div class="container-fluid">
 
 
-
-
-
-
-
-
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img
-        src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
-        alt="Trendy Pants and Shoes"
-        class="img-fluid rounded-start"
-      />
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in to
-          additional content. This content is a little bit longer.
-        </p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+            alt="Trendy Pants and Shoes"
+            class="img-fluid rounded-start"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+
+
+    <table class="table align-middle mb-0 bg-white">
+      <thead class="bg-light">
+        <tr>
+          <th>Name</th>
+          <th>Title</th>
+          <th>Status</th>
+          <th>Position</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="d-flex align-items-center">
+              <img
+                  src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                  alt=""
+                  style="width: 45px; height: 45px"
+                  class="rounded-circle"
+                  />
+              <div class="ms-3">
+                <p class="fw-bold mb-1">John Doe</p>
+                <p class="text-muted mb-0">john.doe@gmail.com</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <p class="fw-normal mb-1">Software engineer</p>
+            <p class="text-muted mb-0">IT department</p>
+          </td>
+          <td>
+            <span class="badge badge-success rounded-pill d-inline">Active</span>
+          </td>
+          <td>Senior</td>
+          <td>
+            <button type="button" class="btn btn-link btn-sm btn-rounded">
+              Edit
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="d-flex align-items-center">
+              <img
+                  src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+                  class="rounded-circle"
+                  alt=""
+                  style="width: 45px; height: 45px"
+                  />
+              <div class="ms-3">
+                <p class="fw-bold mb-1">Alex Ray</p>
+                <p class="text-muted mb-0">alex.ray@gmail.com</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <p class="fw-normal mb-1">Consultant</p>
+            <p class="text-muted mb-0">Finance</p>
+          </td>
+          <td>
+            <span class="badge badge-primary rounded-pill d-inline"
+                  >Onboarding</span
+              >
+          </td>
+          <td>Junior</td>
+          <td>
+            <button
+                    type="button"
+                    class="btn btn-link btn-rounded btn-sm fw-bold"
+                    data-mdb-ripple-color="dark"
+                    >
+              Edit
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="d-flex align-items-center">
+              <img
+                  src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                  class="rounded-circle"
+                  alt=""
+                  style="width: 45px; height: 45px"
+                  />
+              <div class="ms-3">
+                <p class="fw-bold mb-1">Kate Hunington</p>
+                <p class="text-muted mb-0">kate.hunington@gmail.com</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <p class="fw-normal mb-1">Designer</p>
+            <p class="text-muted mb-0">UI/UX</p>
+          </td>
+          <td>
+            <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
+          </td>
+          <td>Senior</td>
+          <td>
+            <button
+                    type="button"
+                    class="btn btn-link btn-rounded btn-sm fw-bold"
+                    data-mdb-ripple-color="dark"
+                    >
+              Edit
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <nav aria-label="...">
+      <ul class="pagination pagination-circle">
+        <li class="page-item">
+          <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active" aria-current="page">
+          <a class="page-link" href="#">2 <span class="visually-hidden">(current)</span></a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+
 </div>
 
 
 
-<table class="table align-middle mb-0 bg-white">
-  <thead class="bg-light">
-    <tr>
-      <th>Name</th>
-      <th>Title</th>
-      <th>Status</th>
-      <th>Position</th>
-      <th>Actions</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <div class="d-flex align-items-center">
-          <img
-              src="https://mdbootstrap.com/img/new/avatars/8.jpg"
-              alt=""
-              style="width: 45px; height: 45px"
-              class="rounded-circle"
-              />
-          <div class="ms-3">
-            <p class="fw-bold mb-1">John Doe</p>
-            <p class="text-muted mb-0">john.doe@gmail.com</p>
-          </div>
-        </div>
-      </td>
-      <td>
-        <p class="fw-normal mb-1">Software engineer</p>
-        <p class="text-muted mb-0">IT department</p>
-      </td>
-      <td>
-        <span class="badge badge-success rounded-pill d-inline">Active</span>
-      </td>
-      <td>Senior</td>
-      <td>
-        <button type="button" class="btn btn-link btn-sm btn-rounded">
-          Edit
-        </button>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <div class="d-flex align-items-center">
-          <img
-              src="https://mdbootstrap.com/img/new/avatars/6.jpg"
-              class="rounded-circle"
-              alt=""
-              style="width: 45px; height: 45px"
-              />
-          <div class="ms-3">
-            <p class="fw-bold mb-1">Alex Ray</p>
-            <p class="text-muted mb-0">alex.ray@gmail.com</p>
-          </div>
-        </div>
-      </td>
-      <td>
-        <p class="fw-normal mb-1">Consultant</p>
-        <p class="text-muted mb-0">Finance</p>
-      </td>
-      <td>
-        <span class="badge badge-primary rounded-pill d-inline"
-              >Onboarding</span
-          >
-      </td>
-      <td>Junior</td>
-      <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Edit
-        </button>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <div class="d-flex align-items-center">
-          <img
-              src="https://mdbootstrap.com/img/new/avatars/7.jpg"
-              class="rounded-circle"
-              alt=""
-              style="width: 45px; height: 45px"
-              />
-          <div class="ms-3">
-            <p class="fw-bold mb-1">Kate Hunington</p>
-            <p class="text-muted mb-0">kate.hunington@gmail.com</p>
-          </div>
-        </div>
-      </td>
-      <td>
-        <p class="fw-normal mb-1">Designer</p>
-        <p class="text-muted mb-0">UI/UX</p>
-      </td>
-      <td>
-        <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
-      </td>
-      <td>Senior</td>
-      <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Edit
-        </button>
-      </td>
-    </tr>
-  </tbody>
-</table>
 
-      </div>
-
-
-<nav aria-label="...">
-  <ul class="pagination pagination-circle">
-    <li class="page-item">
-      <a class="page-link">Previous</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item active" aria-current="page">
-      <a class="page-link" href="#">2 <span class="visually-hidden">(current)</span></a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Next</a>
-    </li>
-  </ul>
-</nav>
-
-
-    </main>
-    <!--Main layout-->
+</main>
+<!--Main layout-->
 
 
 <style type="text/css">
