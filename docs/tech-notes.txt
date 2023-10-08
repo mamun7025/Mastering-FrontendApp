@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=nZakTwJZWV8
+https://www.digitalocean.com/community/tutorials/nodejs-serving-static-files-in-express

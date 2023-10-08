@@ -1,0 +1,24 @@
+{
+  "name": "mastering-frontendapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamun7025/Mastering-FrontendApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamun7025/Mastering-FrontendApp/issues"
+  },
+  "homepage": "https://github.com/mamun7025/Mastering-FrontendApp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
