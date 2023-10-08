@@ -271,36 +271,250 @@
 
 
 <!--Main layout-->
-<main style="margin-top: 85px; padding-left: 248px;">
+<main style="margin-top: 90px; padding-left: 248px;">
 <div class="container-fluid">
 
 
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img
-            src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
-            alt="Trendy Pants and Shoes"
-            class="img-fluid rounded-start"
-          />
+  <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top" alt="Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in to
+            additional content. This content is a little bit longer.
+          </p>
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to
-              additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road"/>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in to
+            additional content. This card has even longer content than the first to show
+            that equal height action.
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <table class="table align-middle mb-0 bg-white mt-5">
+    <thead class="bg-light">
+      <tr>
+        <th>Name</th>
+        <th>Title</th>
+        <th>Status</th>
+        <th>Position</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div class="d-flex align-items-center">
+            <img
+                src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                alt=""
+                style="width: 45px; height: 45px"
+                class="rounded-circle"
+                />
+            <div class="ms-3">
+              <p class="fw-bold mb-1">John Doe</p>
+              <p class="text-muted mb-0">john.doe@gmail.com</p>
+            </div>
+          </div>
+        </td>
+        <td>
+          <p class="fw-normal mb-1">Software engineer</p>
+          <p class="text-muted mb-0">IT department</p>
+        </td>
+        <td>
+          <span class="badge badge-success rounded-pill d-inline">Active</span>
+        </td>
+        <td>Senior</td>
+        <td>
+          <button type="button" class="btn btn-link btn-sm btn-rounded">
+            Edit
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex align-items-center">
+            <img
+                src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+                class="rounded-circle"
+                alt=""
+                style="width: 45px; height: 45px"
+                />
+            <div class="ms-3">
+              <p class="fw-bold mb-1">Alex Ray</p>
+              <p class="text-muted mb-0">alex.ray@gmail.com</p>
+            </div>
+          </div>
+        </td>
+        <td>
+          <p class="fw-normal mb-1">Consultant</p>
+          <p class="text-muted mb-0">Finance</p>
+        </td>
+        <td>
+          <span class="badge badge-primary rounded-pill d-inline"
+                >Onboarding</span
+            >
+        </td>
+        <td>Junior</td>
+        <td>
+          <button
+                  type="button"
+                  class="btn btn-link btn-rounded btn-sm fw-bold"
+                  data-mdb-ripple-color="dark"
+                  >
+            Edit
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex align-items-center">
+            <img
+                src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                class="rounded-circle"
+                alt=""
+                style="width: 45px; height: 45px"
+                />
+            <div class="ms-3">
+              <p class="fw-bold mb-1">Kate Hunington</p>
+              <p class="text-muted mb-0">kate.hunington@gmail.com</p>
+            </div>
+          </div>
+        </td>
+        <td>
+          <p class="fw-normal mb-1">Designer</p>
+          <p class="text-muted mb-0">UI/UX</p>
+        </td>
+        <td>
+          <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
+        </td>
+        <td>Senior</td>
+        <td>
+          <button
+                  type="button"
+                  class="btn btn-link btn-rounded btn-sm fw-bold"
+                  data-mdb-ripple-color="dark"
+                  >
+            Edit
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <nav aria-label="...">
+    <ul class="pagination pagination-circle">
+      <li class="page-item">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="#">2 <span class="visually-hidden">(current)</span></a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <div class="row">
+
+    <div class="col-4">
+
+      <div class="card">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp" class="card-img-top" alt="Fissure in Sandstone"/>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#!" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-4">
+
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#!" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="row mt-4">
+    <div class="col">
+      <div class="card mb-4" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <table class="table align-middle mb-0 bg-white">
+    <table class="table align-middle mb-0 bg-white mt-5">
       <thead class="bg-light">
         <tr>
           <th>Name</th>
