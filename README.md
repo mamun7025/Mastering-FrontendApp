@@ -1,4 +1,4 @@
-# Mastering-Frontend Application
+# Mastering - Frontend Application
 Using mdbootstrap css framework.
 
 Commands to run locally <br />
